@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "title": "TM"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "level 0",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
