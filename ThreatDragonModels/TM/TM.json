@@ -50,16 +50,26 @@
               "angle": 0,
               "id": "877de9e1-270b-4181-bdfc-2fb91b88f705",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "actor 1"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -96,6 +106,22 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 318,
+                "y": 80
+              },
+              "target": {
+                "x": 164,
+                "y": 219
+              },
+              "vertices": [],
+              "id": "b486dae8-cb36-4ca1-ac07-2c5de65e5b32",
+              "z": 4,
+              "attrs": {}
             }
           ]
         },
